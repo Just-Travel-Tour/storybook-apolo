@@ -1,0 +1,1 @@
+import{j as e}from"./iframe-Djky-ZDc.js";const o="_container_3cykv_1",s={container:o},r=({children:a})=>e.jsx("div",{className:s.container,children:a});try{r.displayName="Tag",r.__docgenInfo={description:"",displayName:"Tag",props:{}}}catch{}export{r as T};

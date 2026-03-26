@@ -1,0 +1,8 @@
+import{j as e,P as o}from"./iframe-Djky-ZDc.js";import{u as s}from"./useTicketFilters-Dd23KJF6.js";import{w as m}from"./index-BU59Tt0H.js";import{W as i}from"./index-BHqUQvf4.js";import"./preload-helper-b6bKU1NS.js";import"./useFilterState-WqWdczkM.js";import"./date-BzoeRtiQ.js";import"./index-DBfXTDUO.js";import"./index-BQ_DAIzt.js";import"./index-CWUU7WyA.js";import"./index-47ikvMxW.js";import"./index-DhNkc5of.js";import"./hooks-DnH1Ipqq.js";import"./postcode-regexes-2LyVrQre.js";import"./use-merged-ref-C_BSXtDp.js";import"./pt-PT-C41_Zgu8.js";import"./index-D2SwX3la.js";import"./index-lt11qAWP.js";import"./index-DZZPN7kB.js";import"./index-BfmnFVfP.js";import"./index-DkC2O83z.js";import"./index-BzkExmyF.js";import"./index-BiPkgsEZ.js";import"./image-BU4RpAzz.js";import"./useDictionary-CTkXH_sh.js";import"./index-DCWxv_T9.js";import"./index-sLLNCS6b.js";const R={title:"Elements/Filters/TicketMobileFilters",component:i,args:{},argTypes:{},parameters:{viewport:{defaultViewport:"mobile1"},nextjs:{navigation:{query:{type:"Ticket",destinationId:3,city:"Orlando",checkin:"2024-06-10",checkout:"2024-06-14",peopleAmount:'[{"id":1,"adults":2,"children":0,"childrenAge":[]}]'}}}},play:async({canvasElement:r})=>{m(r).getByTestId("ticket_mobile_filters_button").click()}},t=()=>{const r=s({items:[]});return e.jsx(o,{children:e.jsx(i,{loading:!1,filters:r})})};t.parameters={...t.parameters,docs:{...t.parameters?.docs,source:{originalSource:`() => {
+  const filters = useTicketFilters({
+    items: []
+  });
+  return <Providers>
+      <TicketMobileFilters loading={false} filters={filters} />
+    </Providers>;
+}`,...t.parameters?.docs?.source}}};const S=["Default"];export{t as Default,S as __namedExportsOrder,R as default};
